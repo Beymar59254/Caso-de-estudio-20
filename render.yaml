@@ -1,7 +1,6 @@
 services:
   - type: web
     name: caso-estudio-20
-    runtime: php
     rootDir: ./laravel-app
     buildCommand: |
       composer install --no-interaction --prefer-dist
